@@ -1,0 +1,237 @@
+/* Globale */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* "Variabler" */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn {
+    border: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #ccc;
+    transition: 0.2s ease;
+}
+
+/* Header */
+header {
+    background: url(../img/dog-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+/* Menu */
+#menu {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu ul li {
+    padding: 1.4rem 1rem;
+}
+
+#menu ul li a {
+    font-size: 1.1rem;
+    padding: 1.4rem;
+}
+
+#menu ul li a:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.2s ease;
+}
+
+/* Information */
+#dog-info {
+    text-align: center;
+    line-height: 1.34;
+    letter-spacing: 1px;
+}
+
+#dog-info h2 {
+    text-transform: uppercase;
+    margin: 2rem 0;
+    font-size: 1.7rem;
+}
+
+#dog-info #facts {
+    margin: 2rem 0;
+}
+
+/* Form */
+#calculator .form {
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+#calculator .form label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+#calculator .form input {
+    padding: 0.8rem;
+    width: 100%;
+}
+
+#calculator .form input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+#calculator .form select {
+    padding: 0.8rem;
+    width: 100%;
+}
+
+#calculator .form select:focus {
+    outline: none;
+    border-color: #000;
+}
+
+#calculator .btn {
+    margin-top: 1rem;
+}
+
+#calculator #result {
+    /* Displaying this as none, to show it when the "Calculate Age" is active. */
+    /* display: none; */
+    margin: 3rem 0;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+/* About Page */
+#about-info {
+    text-align: center;
+    line-height: 1.34;
+    letter-spacing: 1px;
+}
+
+#about-info h2 {
+    text-transform: uppercase;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+#about-info #facts {
+    margin: 2rem 0;
+}
+
+/* Contact Page */
+
+#contact .form {
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+#contact .form label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+#contact .form input {
+    padding: 0.8rem;
+    width: 100%;
+}
+
+#contact .form input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+#contact .form select {
+    padding: 0.8rem;
+    width: 100%;
+}
+
+#contact .form select:focus {
+    outline: none;
+    border-color: #000;
+}
+
+#contact .btn {
+    margin-top: 1rem;
+}
+
+#contact .form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0.8rem;
+}
+
+#contact .form textarea:focus {
+    outline: none;
+    border-color: #000;
+}

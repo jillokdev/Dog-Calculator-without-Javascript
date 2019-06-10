@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog Calculator | Home</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dog Calculator</h1>
+        <p>Calculate your dogs age with our correct algorithm.</p>
+    </header>
+
+    <section id="menu">
+        <ul>
+            <li><a href="index.html" id="test">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="howitworks.html">How It Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+
+    <section id="dog-info">
+        <div class="container">
+            <h2>Calculate your dogs age here.</h2>
+            <p>We're using a custom made algorithm that is based on dog age and weight.</p>
+            <p id="facts">Most people think that one dog year equals seven human years. But according to WebMD, your dog’s real age is not that simple:
+
+                Dogs mature more quickly than children in the first couple of years. So the first year of a dog’s life is equal to about 15 human years, rather than seven.
+
+                Size and breed also influence the rate at which a dog ages. Although smaller dogs tend to live longer than larger dogs, they may mature more quickly in the first few years of life. A large dog may mature more slowly at first but already be considered elderly at age 5. Small and toy breeds don’t become “seniors” until around age 10. Medium-size breeds are somewhere in the middle in terms of maturation and life span.</p>
+        </div>
+    </section>
+
+    <div id="calculator">
+        <div class="container">
+            <div class="form">
+                <label>Dog Age</label>
+                <input type="number" placeholder="For Example: 25 (Only Numbers!)" id="age">
+            </div>
+
+            <div class="form">
+                <label for="weight">Dog Weight</label>
+<!--                <input type="number" placeholder="For Example: 10 (Only Numbers!)" id="weight">-->
+           <select name="dogweight" id="weight">
+               <option value="1">9 kg or Less / 20 lbs or Less</option>
+               <option value="1">9 kg to 22 kg / 21 to 50 lbs</option>
+               <option value="1">More than 50 lbs</option>
+           </select>
+            </div>
+            <button class="btn">Calculate Age</button>
+            
+            <div id="result">
+                <h3>Dog Age in Human years:</h3>
+                <h2>20 years old</h2>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Copyright &copy; <a href="https://github.com/JillOkDev">Julian Alsemmani</a></p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
